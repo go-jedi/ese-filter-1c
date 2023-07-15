@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./style/zeroing.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Filter 1c</title>
+</head>
+<body>
+    <div class="main">
+        <div class="main-filter">
+            <div class="main-filter-header">
+                <div class="main-filter-header__close">
+                    <button class="main-filter-header__close_btn">
+                    </button>
+                </div>
+                <div class="main-filter-header__title">Подразделение</div>
+            </div>
+            <div class="main-filter-content">
+                <div class="main-filter-content__sort">
+                    <div class="main-filter-content__sort_title">Сортировка</div>
+                    <div class="main-filter-content__sort_block">
+                        <div class="main-filter-content__sort_block_cont">
+                            <button class="main-filter-content__sort_block_cont_btn">
+                                <div class="main-filter-content__sort_block_cont_icon">
+                                    <img src="./img/north_black_24dp.svg" alt="north-sort">
+                                </div>
+                                <div class="main-filter-content__sort_block_cont_text">
+                                    По возрастанию
+                                </div>
+                            </button>
+                        </div>
+                        <div class="main-filter-content__sort_block_cont">
+                            <button class="main-filter-content__sort_block_cont_btn">
+                                <div class="main-filter-content__sort_block_cont_icon">
+                                    <img src="./img/south_black_24dp.svg" alt="south-sort">
+                                </div>
+                                <div class="main-filter-content__sort_block_cont_text">
+                                    По убыванию
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="main-filter-content__sort_arrow"></div>
+                </div>
+                <div class="main-filter-content__filter">
+                    <div class="main-filter-content__filter_title">Фильтр</div>
+                    <div class="main-filter-content__filter_search">
+                        <input class="main-filter-content__filter_search_inp" type="text" placeholder="Поиск">
+                    </div>
+                </div>
+                <div class="main-filter-content__columns">
+                    <div class="main-filter-content__columns_block">
+                        <div class="main-filter-content__columns_block_col">
+                            <div class="main-filter-content__columns_block_col_checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <div class="main-filter-content__columns_block_col_text">(Выделить все)</div>
+                        </div>
+                        <div class="main-filter-content__columns_block_col">
+                            <div class="main-filter-content__columns_block_col_checkbox">
+                                <input type="checkbox">
+                            </div>
+                            <div class="main-filter-content__columns_block_col_text">АХЧ</div>
+                        </div>
+                        <div class="main-filter-content__columns_block_col">
+                            <div class="main-filter-content__columns_block_col_checkbox">
+                                <input type="checkbox" checked>
+                            </div>
+                            <div class="main-filter-content__columns_block_col_text">Бухгалтерия</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-filter-content__clear">
+                    <button disabled class="main-filter-content__clear_btn">Очистить фильтр</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
